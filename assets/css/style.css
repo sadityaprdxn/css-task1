@@ -100,7 +100,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 92.5%; 
+  width: 93%; 
   margin: 0 auto;
 }
 /*=================================
@@ -113,7 +113,7 @@ h1{
   letter-spacing: 4px;
   font-weight: bolder;
   font-size: 22px;
-  padding-left: 5px;
+  padding-left: 8px;
   color:  #6069D0;
 }
 
@@ -124,15 +124,13 @@ header .fa-stop:before{
 
 header{
   box-sizing: border-box;
-  height: 100px;
+  height: 102px;
   padding-top: 1.2%;
   padding-bottom: 1.2%;
   border-bottom: 1.5px solid #B7B7B7;
+  display: flex;
+  align-items: center;
 }
-
-
-
-
 
 /*=================================
   Header styling ends here
@@ -141,7 +139,138 @@ header{
 /*=================================
   main styling starts here
 =================================*/
+/* welcome section start */
 
+.welcome{
+  padding-top: 45px;
+  position: relative;
+  border-bottom: 1.5px solid #B7B7B7;
+
+}
+h2{
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 33px;
+  color: #6069D0;
+  margin-bottom: 8px;
+}
+
+h2+span{
+  font-weight: lighter;
+  font-size: 24px;
+  color: #6069D0;
+  text-transform: capitalize;
+}
+
+.welcome p:first-of-type{
+  font-weight: lighter;
+  font-size: 23px;
+  color: #6069D0;
+  margin-top: 30px;
+  width: 63%;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.welcome p:last-of-type{
+  font-weight: lighter;
+  font-size: 20px;
+  color: #717171;
+  margin-top: 18px;
+  width: 50%;
+  line-height: 28px;
+  margin-bottom: 40px;
+  letter-spacing: 0.5px;
+}
+
+.welcome p:last-of-type a{
+  color: #44C79D;
+}
+
+.welcome .wrapper>a{
+  color: white;
+  background-color: #44C79D;
+  box-sizing: border-box;
+  height: 65px;
+  padding: 0 19.5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-right: 13px;
+  margin-left: 2px;
+  margin-bottom: 5.5%;
+}
+
+.referrals{
+  color: #FEFEFE;
+  background-color: #6069D0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  width: 31.8%;
+  height: 100%;
+  text-align: center;
+  padding-top: 6.7%;
+  padding-left: 85px;
+  padding-right: 85px;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+}
+
+.referrals h3 span{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.referrals>span{
+  display: block;
+}
+
+.referrals span:nth-child(2){
+  font-size: 31px;
+  color: rgba(255,255,255,0.4);
+  margin-top: 10px;
+}
+
+.referrals span:nth-child(3){
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.referrals h3:nth-child(4){
+  width: 70%;;
+  margin: 18px auto 0;
+  line-height: 38px;
+}
+
+.referrals span:nth-child(5){
+  font-size: 31px;
+  color: rgba(255,255,255,0.4);
+  margin-top: 5px;
+}
+
+.referrals>a{
+  display: none;
+}
+.insiders{
+  display: none;
+}
+.strategy{
+  display: none;
+}
+.footer .wrapper{
+  display: none;
+}
+/* welcome section end */
 
 
 
