@@ -100,13 +100,35 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 92.5%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
+h1{
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  font-size: 22px;
+  padding-left: 5px;
+  color:  #6069D0;
+}
 
+header .fa-stop:before{
+  font-size: 60px;
+  color:  #6069D0;
+}
+
+header{
+  box-sizing: border-box;
+  height: 100px;
+  padding-top: 1.2%;
+  padding-bottom: 1.2%;
+  border-bottom: 1.5px solid #B7B7B7;
+}
 
 
 
