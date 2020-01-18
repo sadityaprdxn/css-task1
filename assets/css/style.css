@@ -215,8 +215,8 @@ h2+span{
   height: 100%;
   text-align: center;
   padding-top: 6.7%;
-  padding-left: 85px;
-  padding-right: 85px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 h3{
@@ -261,9 +261,116 @@ h3{
 .referrals>a{
   display: none;
 }
+
 .insiders{
-  display: none;
+  padding-top: 45px;
+  border-bottom: 1.5px solid #B7B7B7;
+  padding-bottom: 48px;
 }
+
+.insiders h2{
+  margin-bottom: 40px;
+}
+
+.wrapper-two{
+  max-width: 100%;
+  width: 89%; 
+  margin: 0 auto;
+
+}
+
+.insider figure{
+
+  width: 200px;
+  height: 198px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #6069D0;
+
+}
+
+.insider-leaders{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+h4{
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #44C79D;
+  font-weight: bolder;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+.insider span:nth-child(4){
+  display: block;
+  color: #6069D0;
+  font-size: 18px;
+  margin-bottom: 11px;
+}
+
+.insider span:nth-child(4) a{
+  padding: 2.5px;
+}
+
+.insider-leaders li:nth-child(1){
+ width: 18%;
+}
+
+.insider-leaders li:nth-child(3){
+  width: 18.5%;
+}
+
+.insider-leaders li:nth-child(2){
+  width: 25%;
+}
+
+.insider-leaders figcaption{
+  font-weight: 600;
+  font-size: 16px;
+  color: #717171;
+  line-height: 24px;
+  margin-bottom: 11px;
+}
+
+.insider-leaders li:nth-child(2) figcaption{
+  width: 80%;
+  margin: 0 auto 11px;
+  text-transform: capitalize;
+}
+
+.insider-leaders li:nth-child(2) .insider span:nth-child(5){
+    display: inline-block;
+    width: 70%;
+}
+
+.insider span:last-of-type{
+
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  font-size: 14.5px;
+  line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .strategy{
   display: none;
 }
