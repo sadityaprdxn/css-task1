@@ -256,10 +256,32 @@ h3{
   font-size: 31px;
   color: rgba(255,255,255,0.4);
   margin-top: 5px;
+  margin-bottom: 92px;
+}
+
+.referrals span:nth-child(6) a{
+  font-size: 17px;
+  color: #C6C6C6;
+  margin: 0 1.5px;
+}
+
+.referrals span:nth-child(6) a:nth-child(3){
+  color: #FFFFFF;
 }
 
 .referrals>a{
-  display: none;
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 50px;
+  top: 39.5%;
+}
+
+.referrals .fa-chevron-right{
+  right: 4.5%;
+}
+
+.referrals .fa-chevron-left{
+  left: 4.5%;
 }
 
 .insiders{
@@ -373,6 +395,8 @@ h4{
 
 .strategy{
   padding-top: 45px;
+  border-bottom: 1.5px solid #B7B7B7;
+  padding-bottom: 50px;
 }
 
 .strategy h2{
@@ -431,10 +455,75 @@ h5{
 
 
 
+footer{
+  background-color: #6069D0;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  
+}
+
+footer .wrapper{
+  position: relative;
+
+}
+
+footer h5{
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 33px;
+  color: #FFFFFF;
+  margin-bottom: 44px;
+}
+
+footer p{
+  font-weight: lighter;
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 26px;
+  text-align: center;
+  line-height: 28px;
+
+}
+
+footer .wrapper-two p:first-of-type{
+  margin-bottom: 1px;
+}
+
+footer .wrapper-two p:last-of-type{
+  margin-bottom: 31px;
+}
+
+footer .wrapper-two span{
+  display: block;
+  text-align: center;
+}
+
+footer .wrapper-two span a{
+  font-size: 23px;
+  color: #C6C6C6;
+  margin: 0 2.7px;
+}
+
+footer .wrapper-two span a:nth-child(4){
+  color: #FFFFFF;
+}
 
 
-.footer .wrapper{
-  display: none;
+footer .wrapper>a{
+
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 50px;
+  top: 45%;
+
+}
+
+footer .fa-chevron-right{
+  right: 0;
+}
+
+footer .fa-chevron-left{
+  left: 0;
 }
 /* welcome section end */
 
